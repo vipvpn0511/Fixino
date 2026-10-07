@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "تعمیرات موبایل علی",
+  "short_name": "موبایل علی",
+  "description": "ثبت و پیگیری مشتری‌های تعمیرات موبایل",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e6efff",
+  "theme_color": "#e6efff",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "ثبت مشتری جدید", "short_name": "مشتری جدید", "url": "./?new=1",
+     "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
